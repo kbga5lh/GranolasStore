@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.granolasstore.ShoppingCart"
+        <activity android:name="com.android.granolasstore.ShoppingCarta"
             android:label="Shopping Cart">
 
         </activity>
