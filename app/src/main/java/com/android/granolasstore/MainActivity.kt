@@ -14,15 +14,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-//        binding.fab.setOnClickListener {
-//            val intent = Intent(this, ShoppingCart::class.java)
-//            intent.putExtra(EXTRA_SHOPPING_CART, shoppingCart);
-//            startActivity(intent);
-//        }
-    }
-
-    companion object {
-        const val EXTRA_SHOPPING_CART = "SHOPPING_CART"
     }
 }
